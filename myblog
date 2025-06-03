@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gambar IPTV Frame Emas & Dark</title>
+<style>
+  body {
+    background-color: #121212; /* dark background */
+    color: #eee;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .sizelogo-frame {
+    width: 150px;
+    height: 80px;
+    border: 2px solid gold; /* warna emas */
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 6px;
+    background: #222; /* gelap sedikit di dalam frame */
+    box-shadow: 0 0 8px gold;
+    transition: transform 0.2s ease;
+  }
+
+  .sizelogo-frame:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px gold;
+  }
+
+  .sizelogo-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+</style>
+</head>
+<body>
+
+<h2>Channal Salarun Yang Anda Dapat </h2>
+
+<div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/telegram-channel.webp" alt="telegram">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/movie.webp" alt="movie">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/tv1-live-streaming-online.webp" alt="tv1">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/tv2-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/tv3-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/tv6-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/didiktv-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/didiktv-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/tv9-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-awani-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/berita-rtm-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/tvs-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/tv-okey-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/tv-alhijrah-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-oasis-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-ceria-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-ria-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-prima-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-citra-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-sensasi.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/boo-hd-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/dunia-sinema-hd.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/unifi-siar.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-aura-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-rania-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-arena-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-arena-2-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/arena-bola-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/arena-bola-2-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/sportsuhd-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-grandstand-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-premier-league-2-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-football-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-football-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-badminton-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-badminton2-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-sports-plus-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/unifi-sports.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/skysportstopevent.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/skysportsf1.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/sukan-rtm-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/stadium_tv_logo.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/spotv-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/spotv-2-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/bein-sports-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/bein-sports-2-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/bein-sports-3-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/premier-sport-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/wwe-network-live-streaming-online.webp"" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/golf-channel-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-cricket-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/mutv-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/w-sport-hd-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/cinemax-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+    <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/one-hd-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+    <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/tvn-hd-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+    <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/tvn-movies-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+    <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/kbs-world-hd-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+      <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/tvn-hd-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+      <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/tvn-hd-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+      <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/tvn-movies-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+      <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/kbs-world-hd-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+      <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/k-plus-hd-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+      <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/hits-hd-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+      <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/hits-movies-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+      <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/hits-now-hd-live-streaming-online.webp" alt="Showcase Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/mtv-live-streaming-online.webp" alt="MTV">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/history-hd-live-streaming-online.webp" alt="History HD">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/discovery-live-streaming-online.webp" alt="Discovery">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/discovery-asia-live-streaming-online.webp" alt="Discovery Asia">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/lifetime-live-streaming-online.webp" alt="Lifetime">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/love-nature-live-streaming-online.webp" alt="Love Nature">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/hgtv-hd-live-streaming-online.webp" alt="HGTV HD">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/bbc-earth-live-streaming-online.webp" alt="BBC Earth">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/crime-investigation-hd-live-streaming-online.webp" alt="Crime Investigation HD">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/tlc-hd-live-streaming-online.webp" alt="TLC HD">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/asian-food-network-live-streaming-online.webp" alt="Asian Food Network">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-tutor-tv-smk-live-streaming-online.webp" alt="Astro Tutor TV SMK">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/global-trekker-tv-live-streaming-online.webp" alt="Global Trekker TV">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/bbc-lifestyle-live-streaming-online.webp" alt="BBC Lifestyle">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/outdoor-channel-hd-live-streaming-online.webp" alt="Outdoor Channel HD">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/bernama-tv-live-streaming-online.webp" alt="Bernama TV">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/aljazeera.webp" alt="Al Jazeera">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/bbcworldnews.webp" alt="BBC World News">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/cna-channel-news-asia-live-streaming-online.webp" alt="CNA Channel News Asia">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/cnn.webp" alt="CNN">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/skynews.webp" alt="Sky News">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-hua-hee-dai-live-streaming-online.webp" alt="Astro Hua Hee Dai">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/iqiyi-hd-live-streaming-online.webp" alt="iQIYI HD">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-aec-live-streaming-online.webp" alt="Astro AEC">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-aod.webp" alt="Astro AOD">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/tvb-classic-live-streaming-online.webp" alt="TVB Classic">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/celestial-classic-movies-live-streaming-online.webp" alt="Celestial Classic Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/celestial-movies-live-streaming-online.webp" alt="Celestial Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-qj-live-streaming-online.webp" alt="Astro QJ">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/zee-cinema-live-streaming-online.webp" alt="Zee Cinema">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/bollywood-hd-live-streaming-online.webp" alt="Bollywood HD">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/bollywood-classic-movies.webp" alt="Bollywood Classic Movies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-vaanavil-hd-live-streaming-online.webp" alt="Astro Vaanavil HD">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-adithya-live-streaming-online.webp" alt="Astro Adithya">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/colors-hindi-hd-live-streaming-online.webp" alt="Colors Hindi HD">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/colors-tamil-hd-live-streaming-online.webp" alt="Colors Tamil HD">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/star-vijay-hd-live-streaming-online.webp" alt="Star Vijay HD">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/astro-abo-live-streaming-online.webp" alt="Astro ABO">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/zee-tamil-live-streaming-online.webp" alt="Zee Tamil">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/sun-music-hd-live-streaming-online.webp" alt="Sun Music HD">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/sun-tv-hd-live-streaming-online.webp" alt="Sun TV HD">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/animax-live-streaming-online.webp" alt="Animax">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/cartoon-network-live-streaming-online.webp" alt="Cartoon Network">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/nickelodeon-live-streaming-online.webp" alt="Nickelodeon">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/dreamworks-hd-live-streaming-online.webp" alt="Dreamworks HD">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/nick-jr-live-streaming-online.webp" alt="Nick Jr">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/moonbug-kids-live-streaming-online.webp" alt="Moonbug Kids">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/cbeebies-live-streaming-online.webp" alt="CBeebies">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/sooka-filem-mantap-live-streaming-online.webp" alt="Sooka Filem Mantap">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/sooka-drama-hebat-live-streaming-online.webp" alt="Sooka Drama Hebat">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/sooka-lawak-sentral-live-streaming-online.webp" alt="Sooka Lawak Sentral">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/sooka-drama-hotpot-live-streaming-online.webp" alt="Sooka Drama Hotpot">
+  </div>
+  <div class="sizelogo-frame">
+    <img src="https://www.tvmalaysia.live/images/radiomalaysiaonline.webp" alt="Radio Malaysia Online">
+  </div>
+</div>
+
+</body>
+</html>
