@@ -569,18 +569,55 @@
 <section>
   <h2 style="text-align:center;">Senarai Tambahan Saluran Dunia</h2>
   <p style="text-align:center; font-size: 1.2em; margin-bottom: 10px;">
-    📺✨ 3000+ saluran 🌍 LIVE FOOTBALL ⚽, MMA 🥊, MOVIE 🎬, ANIME 🧝‍♂️ dan banyak lagi menarik! 🚀🔥
+    📺✨ 30,000+ saluran yang bisa anda deploy mengikut selera anda 🌍 LIVE FOOTBALL ⚽, MMA 🥊, MOVIE 🎬, ANIME 🧝‍♂️ dan banyak lagi menarik! 🚀🔥
   </p>
-  <div style="width: 100%; height: 600px;">
+  <div style="text-align:center; margin-bottom: 15px;">
+    <button id="toggleBtn" onclick="toggleIframe()" style="
+      padding: 12px 25px;
+      font-size: 1em;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: background-color 0.3s ease;
+    " onmouseover="this.style.backgroundColor='#0056b3'" onmouseout="this.style.backgroundColor='#007BFF'">
+      Buka Frame 🚀
+    </button>
+  </div>
+  <div id="iframeContainer" style="
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.6s ease;
+  ">
     <iframe 
       src="https://iptv-org.github.io/" 
       width="100%" 
-      height="100%" 
+      height="600px" 
       allowfullscreen 
       style="border: none;">
     </iframe>
   </div>
 </section>
+
+<script>
+  let isOpen = false;
+  function toggleIframe() {
+    const container = document.getElementById("iframeContainer");
+    const button = document.getElementById("toggleBtn");
+    if (isOpen) {
+      container.style.height = "0";
+      button.innerHTML = "Buka Frame 🚀";
+    } else {
+      container.style.height = "600px";
+      button.innerHTML = "Tutup Frame ❌";
+    }
+    isOpen = !isOpen;
+  }
+</script>
+
 
 </body>
 </html>
