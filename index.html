@@ -692,6 +692,72 @@
   </div>
 </section>
 
+  
+<section>
+  <h2 style="text-align:center;"></h2>
+  <p style="text-align:center; font-size: 1.2em; margin-bottom: 10px;">
+    📺✨ 30,000+ saluran yang bisa anda deploy mengikut selera anda 🌍 LIVE FOOTBALL ⚽, MMA 🥊, MOVIE 🎬, ANIME 🧝‍♂️ dan banyak lagi menarik! 🚀🔥
+  </p>
+
+  <div style="text-align:center; margin-bottom: 15px;">
+    <button class="tab-btn" onclick="toggleIframe(0)">🌐 Buka Frame 1</button>
+    <button class="tab-btn" onclick="toggleIframe(1)">🎬 Buka Frame 2</button>
+    <button class="tab-btn" onclick="toggleIframe(2)">⚽ Buka Frame 3</button>
+    <button class="tab-btn" onclick="toggleIframe(3)">🧝‍♂️ Buka Frame 4</button>
+  </div>
+
+  <div id="iframeContainer0" class="iframeBox"><iframe src="https://iptv-org.github.io/" allowfullscreen></iframe></div>
+  <div id="iframeContainer1" class="iframeBox"><iframe src="https://www.example.com/" allowfullscreen></iframe></div>
+  <div id="iframeContainer2" class="iframeBox"><iframe src="https://www.espn.com/" allowfullscreen></iframe></div>
+  <div id="iframeContainer3" class="iframeBox"><iframe src="https://www.crunchyroll.com/" allowfullscreen></iframe></div>
+
+  <style>
+    .tab-btn {
+      padding: 12px 25px;
+      font-size: 1em;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      margin: 5px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: background-color 0.3s ease;
+    }
+    .tab-btn:hover {
+      background-color: #0056b3;
+    }
+    .iframeBox {
+      width: 100%;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.6s ease, padding 0.6s ease;
+    }
+    .iframeBox iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+    }
+    .iframeBox.active {
+      max-height: 650px;
+      padding-bottom: 10px;
+    }
+  </style>
+
+  <script>
+    function toggleIframe(index) {
+      const containers = document.querySelectorAll('.iframeBox');
+      containers.forEach((container, i) => {
+        if (i === index) {
+          container.classList.toggle('active');
+        } else {
+          container.classList.remove('active');
+        }
+      });
+    }
+  </script>
+</section>
+
 
 
 </body>
