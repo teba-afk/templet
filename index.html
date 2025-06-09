@@ -150,70 +150,7 @@
     <p>Streaming Saluran Premium Tanpa Had!</p>
   </header>
 
-  <!-- Seksyen: Butang Tab Tambahan -->
-<section>
-  <h2 style="text-align:center;">Akses Cepat ke Ciri Tambahan</h2>
-  <p style="text-align:center; font-size: 1.2em; margin-bottom: 10px;">
-    📺✨ Pilih aksi di bawah untuk terus deploy, daftar atau akses servis kami dengan mudah.
-  </p>
 
-  <div style="text-align:center; margin-bottom: 15px;">
-    <button class="tab-btn" onclick="toggleTabIframe(0)">⚽ Register</button>
-    <button class="tab-btn" onclick="toggleTabIframe(1)">🌐 Download</button>
-    <button class="tab-btn" onclick="toggleTabIframe(2)">🎬 Deploy</button>
-    <button class="tab-btn" onclick="toggleTabIframe(3)">🧝‍♂️ Kedai Kami</button>
-  </div>
-
-  <div id="tabIframe0" class="iframeBox"><iframe src="https://deploy2noted.bearblog.dev/" allowfullscreen></iframe></div>
-  <div id="tabIframe1" class="iframeBox"><iframe src="https://dented-veil-696.notion.site/ebd/2082aa12313480dd8743d5951bdb8fe7" width="100%" height="600" frameborder="0" allowfullscreen></iframe></div>
-  <div id="tabIframe2" class="iframeBox"><iframe src="https://i.ibb.co/CK9S93rk/Share.png" allowfullscreen></iframe></div>
-  <div id="tabIframe3" class="iframeBox"><iframe src="https://gentle-wednesday-bc0.notion.site/ebd/20911539543580d3b63ed94d626ada0c" allowfullscreen></iframe></div>
-
-  <style>
-    .tab-btn {
-      padding: 12px 25px;
-      font-size: 1em;
-      background-color: #007BFF;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      margin: 5px;
-      cursor: pointer;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-      transition: background-color 0.3s ease;
-    }
-    .tab-btn:hover {
-      background-color: #0056b3;
-    }
-    .iframeBox {
-      width: 100%;
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.6s ease, padding 0.6s ease;
-    }
-    .iframeBox iframe {
-      width: 100%;
-      height: 600px;
-      border: none;
-    }
-    .iframeBox.active {
-      max-height: 650px;
-      padding-bottom: 10px;
-    }
-  </style>
-
-  <script>
-    function toggleTabIframe(index) {
-      const containers = document.querySelectorAll('.iframeBox');
-      containers.forEach((container, i) => {
-        if (i === index) {
-          container.classList.toggle('active');
-        } else {
-          container.classList.remove('active');
-        }
-      });
-    }
-  </script>
 </section>
   
   <section class="features">
@@ -772,7 +709,70 @@
          style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
   </div>
 </section>
+  <!-- Seksyen: Butang Tab Tambahan -->
+<section>
+  <h2 style="text-align:center;">Akses Cepat ke Ciri Tambahan</h2>
+  <p style="text-align:center; font-size: 1.2em; margin-bottom: 10px;">
+    📺✨ Pilih aksi di bawah untuk terus deploy, daftar atau akses servis kami dengan mudah.
+  </p>
 
+  <div style="text-align:center; margin-bottom: 15px;">
+    <button class="tab-btn" onclick="toggleTabIframe(0)">⚽ Register</button>
+    <button class="tab-btn" onclick="toggleTabIframe(1)">🌐 Download</button>
+    <button class="tab-btn" onclick="toggleTabIframe(2)">🎬 Deploy</button>
+    <button class="tab-btn" onclick="toggleTabIframe(3)">🧝‍♂️ Kedai Kami</button>
+  </div>
+
+  <div id="tabIframe0" class="iframeBox"><iframe src="https://deploy2noted.bearblog.dev/" allowfullscreen></iframe></div>
+  <div id="tabIframe1" class="iframeBox"><iframe src="https://dented-veil-696.notion.site/ebd/2082aa12313480dd8743d5951bdb8fe7" width="100%" height="600" frameborder="0" allowfullscreen></iframe></div>
+  <div id="tabIframe2" class="iframeBox"><iframe src="https://i.ibb.co/CK9S93rk/Share.png" allowfullscreen></iframe></div>
+  <div id="tabIframe3" class="iframeBox"><iframe src="https://gentle-wednesday-bc0.notion.site/ebd/20911539543580d3b63ed94d626ada0c" allowfullscreen></iframe></div>
+
+  <style>
+    .tab-btn {
+      padding: 12px 25px;
+      font-size: 1em;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      margin: 5px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: background-color 0.3s ease;
+    }
+    .tab-btn:hover {
+      background-color: #0056b3;
+    }
+    .iframeBox {
+      width: 100%;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.6s ease, padding 0.6s ease;
+    }
+    .iframeBox iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+    }
+    .iframeBox.active {
+      max-height: 650px;
+      padding-bottom: 10px;
+    }
+  </style>
+
+  <script>
+    function toggleTabIframe(index) {
+      const containers = document.querySelectorAll('.iframeBox');
+      containers.forEach((container, i) => {
+        if (i === index) {
+          container.classList.toggle('active');
+        } else {
+          container.classList.remove('active');
+        }
+      });
+    }
+  </script>
 
 </body>
 </html>
