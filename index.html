@@ -773,6 +773,178 @@
       });
     }
   </script>
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <title>Pakej Langganan</title>
+  <style>
+    body {
+      background-color: #000;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 30px;
+      color: #084c24;
+    }
+
+    h2 {
+      font-size: 2em;
+      margin-bottom: 30px;
+    }
+
+    .packages {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      width: 200px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+      margin: 0 0 10px;
+    }
+
+    .card p {
+      margin: 6px 0;
+    }
+
+    .card button {
+      margin-top: 10px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .form-container {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .form-container input,
+    .form-container select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1em;
+    }
+
+    .form-container button {
+      background-color: #00796b;
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .tab-btn {
+      padding: 12px 25px;
+      font-size: 1em;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      margin: 5px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: background-color 0.3s ease;
+    }
+
+    .tab-btn:hover {
+      background-color: #0056b3;
+    }
+
+    .iframeBox {
+      width: 100%;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.6s ease, padding 0.6s ease;
+    }
+
+    .iframeBox iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+    }
+
+    .iframeBox.active {
+      max-height: 650px;
+      padding-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Pilih Pakej Langganan</h2>
+
+  <div class="packages">
+    <div class="card">
+      <h3>Pakej 1 Bulan</h3>
+      <p><strong>RM15</strong></p>
+      <p>1 Bulan</p>
+      <button onclick="fillPackage('Pakej 1 Bulan - RM15')">Tempah Sekarang</button>
+    </div>
+    <div class="card">
+      <h3>Pakej 3 Bulan</h3>
+      <p><strong>RM35</strong></p>
+      <p>3 Bulan</p>
+      <button onclick="fillPackage('Pakej 3 Bulan - RM35')">Tempah Sekarang</button>
+    </div>
+    <div class="card">
+      <h3>Pakej 6 Bulan</h3>
+      <p><strong>RM50</strong></p>
+      <p>6 Bulan</p>
+      <button onclick="fillPackage('Pakej 6 Bulan - RM50')">Tempah Sekarang</button>
+    </div>
+    <div class="card">
+      <h3>Pakej Promosi Lifetime</h3>
+      <p><strong>RM45</strong></p>
+      <p>Sepanjang Hayat</p>
+      <button onclick="fillPackage('Promosi Lifetime - RM45')">Tempah Sekarang</button>
+    </div>
+  </div>
+
+  <div class="form-container">
+    <h3>Borang Tempahan</h3>
+    <form id="orderForm" onsubmit="submitOrder(event)">
+      <input type="text" id="nama" placeholder="Nama Penuh" required>
+      <input type="email" id="emel" placeholder="Alamat Emel Sah" required>
+      <select id="pakej" required>
+        <option value="">Pilih Pakej</option>
+        <option value="Pakej 1 Bulan - RM15">Pakej 1 Bulan - RM15</option>
+        <option value="Pakej 3 Bulan - RM35">Pakej 3 Bulan - RM35</option>
+        <option value="Pakej 6 Bulan - RM50">Pakej 6 Bulan - RM50</option>
+        <option value="Promosi Lifetime - RM45">Promosi Lifetime - RM45</option>
+      </select>
+      <button type="submit">Hantar ke WhatsApp</button>
+    </form>
+  </div>
+
+  <!-- Selebihnya kekal tidak berubah -->
+
 
 </body>
 </html>
